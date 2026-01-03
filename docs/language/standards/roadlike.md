@@ -9,7 +9,7 @@
 
 **License:** Unlicense
 
-A standard made for those who wish to migrate from [MFRoad](https://github.com/MF366-Coding/MFRoad) to RSML. It uses MFRoad's operators, so users only need to focus on re-learning the base [syntax](../index.md#syntax-reference), not the operators too.
+A standard made for those who wish to migrate from [MFRoad](https://github.com/mf366-dev/MFRoad) to RSML. It uses MFRoad's operators, so users only need to focus on re-learning the base [syntax](../index.md#syntax-reference), not the operators too.
 
 ## Operators
 Road-Like defines the following tokens as operators.

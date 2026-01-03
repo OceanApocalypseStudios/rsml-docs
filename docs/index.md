@@ -8,7 +8,7 @@
 !!! warning
     This documentation refers to RSML v2.0.0+. RSML has changed a **lot** from v1.x.x to v2.0.0.
 
-**Red Sea Markup Language** is **the** powerful and robust fork of [MF's CrossRoad Solution](https://mf366-coding.github.io/documentation/mfroad/mfroad_1.0.html "MFRoad"), a ==language designed to dynamically interpret different logic paths based on the local host OS and CPU architecture.==
+**Red Sea Markup Language** is **the** powerful and robust fork of [MF's CrossRoad Solution](https://mf366-dev.github.io/documentation/mfroad/mfroad_1.0.html "MFRoad"), a ==language designed to dynamically interpret different logic paths based on the local host OS and CPU architecture.==
 
 RSML *(short for Red Sea Markup Language)* can currently be used in C# and Python, as well as in its own CLI. We are currently working in the native C ABI as well, which will let you use RSML in whatever programming language you like (as long as it allows for C interop).
 

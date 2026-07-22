@@ -1,0 +1,14 @@
+announcement:
+  label: Announcements
+  permalink: /announcements
+  description: General announcements and news.
+
+choice:
+  label: Our Choices
+  permalink: /our-choices
+  description: Information on why we do things the way we do.
+
+docs:
+  label: Documentation
+  permalink: /docs-articles
+  description: Documentation-related blog articles.

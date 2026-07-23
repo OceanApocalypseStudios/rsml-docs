@@ -1,5 +1,5 @@
 ---
-id: net8.0-severity
+id: oceanapocalypsestudios-rsml-diagnostics-severity
 title: Severity
 sidebar_label: Severity
 ---

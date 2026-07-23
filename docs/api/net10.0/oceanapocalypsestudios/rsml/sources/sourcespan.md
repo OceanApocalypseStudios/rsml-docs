@@ -1,5 +1,5 @@
 ---
-id: net10.0-sourcespan
+id: oceanapocalypsestudios-rsml-sources-sourcespan
 title: SourceSpan
 sidebar_label: SourceSpan
 ---

@@ -1,5 +1,5 @@
 ---
-id: net472-result-1
+id: oceanapocalypsestudios-rsml-diagnostics-result-1
 title: "Result<TValue>"
 sidebar_label: "Result<TValue>"
 ---

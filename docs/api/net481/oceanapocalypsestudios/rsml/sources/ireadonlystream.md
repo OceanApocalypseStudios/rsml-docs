@@ -1,5 +1,5 @@
 ---
-id: net481-ireadonlystream
+id: oceanapocalypsestudios-rsml-sources-ireadonlystream
 title: IReadOnlyStream
 sidebar_label: IReadOnlyStream
 ---

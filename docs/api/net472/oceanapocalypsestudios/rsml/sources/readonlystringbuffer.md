@@ -1,5 +1,5 @@
 ---
-id: net472-readonlystringbuffer
+id: oceanapocalypsestudios-rsml-sources-readonlystringbuffer
 title: ReadOnlyStringBuffer
 sidebar_label: ReadOnlyStringBuffer
 ---

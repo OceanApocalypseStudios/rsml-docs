@@ -1,5 +1,5 @@
 ---
-id: net472-token
+id: oceanapocalypsestudios-rsml-language-lexing-token
 title: Token
 sidebar_label: Token
 ---

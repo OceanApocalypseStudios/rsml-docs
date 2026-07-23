@@ -1,5 +1,5 @@
 ---
-id: net481-istream
+id: oceanapocalypsestudios-rsml-sources-istream
 title: IStream
 sidebar_label: IStream
 ---

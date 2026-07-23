@@ -1,5 +1,5 @@
 ---
-id: net481-errorcategory
+id: oceanapocalypsestudios-rsml-diagnostics-errorcategory
 title: ErrorCategory
 sidebar_label: ErrorCategory
 ---

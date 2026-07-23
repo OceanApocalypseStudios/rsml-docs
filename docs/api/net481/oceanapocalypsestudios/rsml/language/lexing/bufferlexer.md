@@ -1,5 +1,5 @@
 ---
-id: net481-bufferlexer
+id: oceanapocalypsestudios-rsml-language-lexing-bufferlexer
 title: BufferLexer
 sidebar_label: BufferLexer
 ---

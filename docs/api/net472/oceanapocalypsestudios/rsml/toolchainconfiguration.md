@@ -1,5 +1,5 @@
 ---
-id: net472-toolchainconfiguration
+id: oceanapocalypsestudios-rsml-toolchainconfiguration
 title: ToolchainConfiguration
 sidebar_label: ToolchainConfiguration
 ---

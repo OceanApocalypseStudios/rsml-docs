@@ -1,5 +1,5 @@
 ---
-id: net472-streamlexer
+id: oceanapocalypsestudios-rsml-language-lexing-streamlexer
 title: StreamLexer
 sidebar_label: StreamLexer
 ---

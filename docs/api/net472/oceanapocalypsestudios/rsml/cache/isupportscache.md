@@ -1,5 +1,5 @@
 ---
-id: net472-isupportscache
+id: oceanapocalypsestudios-rsml-cache-isupportscache
 title: ISupportsCache
 sidebar_label: ISupportsCache
 ---

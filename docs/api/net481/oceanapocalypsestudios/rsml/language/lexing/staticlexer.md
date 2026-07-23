@@ -1,5 +1,5 @@
 ---
-id: net481-staticlexer
+id: oceanapocalypsestudios-rsml-language-lexing-staticlexer
 title: StaticLexer
 sidebar_label: StaticLexer
 ---

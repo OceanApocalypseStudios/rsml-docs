@@ -1,5 +1,5 @@
 ---
-id: net10.0-class1
+id: oceanapocalypsestudios-rsml-native-class1
 title: Class1
 sidebar_label: Class1
 ---

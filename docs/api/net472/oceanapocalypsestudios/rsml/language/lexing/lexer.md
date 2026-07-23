@@ -1,5 +1,5 @@
 ---
-id: net472-lexer
+id: oceanapocalypsestudios-rsml-language-lexing-lexer
 title: Lexer
 sidebar_label: Lexer
 ---

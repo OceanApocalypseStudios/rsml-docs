@@ -1,5 +1,5 @@
 ---
-id: net100-itoolchaincomponent
+id: oceanapocalypsestudios-rsml-itoolchaincomponent
 title: IToolchainComponent
 sidebar_label: IToolchainComponent
 ---

@@ -1,5 +1,5 @@
 ---
-id: net472-errorcode
+id: oceanapocalypsestudios-rsml-diagnostics-errorcode
 title: ErrorCode
 sidebar_label: ErrorCode
 ---

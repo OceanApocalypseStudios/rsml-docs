@@ -1,5 +1,5 @@
 ---
-id: net481-diagnosticcollector
+id: oceanapocalypsestudios-rsml-diagnostics-diagnosticcollector
 title: DiagnosticCollector
 sidebar_label: DiagnosticCollector
 ---

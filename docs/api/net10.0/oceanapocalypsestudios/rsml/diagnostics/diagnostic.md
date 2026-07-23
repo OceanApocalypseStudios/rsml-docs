@@ -1,5 +1,5 @@
 ---
-id: net10.0-diagnostic
+id: oceanapocalypsestudios-rsml-diagnostics-diagnostic
 title: Diagnostic
 sidebar_label: Diagnostic
 ---

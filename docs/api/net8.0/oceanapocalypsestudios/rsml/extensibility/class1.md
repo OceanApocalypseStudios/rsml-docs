@@ -1,5 +1,5 @@
 ---
-id: net8.0-class1
+id: oceanapocalypsestudios-rsml-extensibility-class1
 title: Class1
 sidebar_label: Class1
 ---

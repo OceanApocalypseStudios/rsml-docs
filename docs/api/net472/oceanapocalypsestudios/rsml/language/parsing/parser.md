@@ -1,5 +1,5 @@
 ---
-id: net472-parser
+id: oceanapocalypsestudios-rsml-language-parsing-parser
 title: Parser
 sidebar_label: Parser
 ---

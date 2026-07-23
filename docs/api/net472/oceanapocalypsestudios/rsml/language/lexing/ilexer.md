@@ -1,5 +1,5 @@
 ---
-id: net472-ilexer
+id: oceanapocalypsestudios-rsml-language-lexing-ilexer
 title: ILexer
 sidebar_label: ILexer
 ---

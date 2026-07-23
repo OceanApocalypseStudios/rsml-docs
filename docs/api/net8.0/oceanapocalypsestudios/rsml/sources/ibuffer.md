@@ -1,5 +1,5 @@
 ---
-id: net8.0-ibuffer
+id: oceanapocalypsestudios-rsml-sources-ibuffer
 title: IBuffer
 sidebar_label: IBuffer
 ---

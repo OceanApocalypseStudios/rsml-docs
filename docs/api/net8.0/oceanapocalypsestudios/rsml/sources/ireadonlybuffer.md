@@ -1,5 +1,5 @@
 ---
-id: net8.0-ireadonlybuffer
+id: oceanapocalypsestudios-rsml-sources-ireadonlybuffer
 title: IReadOnlyBuffer
 sidebar_label: IReadOnlyBuffer
 ---

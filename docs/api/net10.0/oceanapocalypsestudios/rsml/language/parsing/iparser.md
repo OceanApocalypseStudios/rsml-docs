@@ -1,5 +1,5 @@
 ---
-id: net10.0-iparser
+id: oceanapocalypsestudios-rsml-language-parsing-iparser
 title: IParser
 sidebar_label: IParser
 ---

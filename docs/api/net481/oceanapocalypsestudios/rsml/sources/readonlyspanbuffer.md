@@ -1,5 +1,5 @@
 ---
-id: net481-readonlyspanbuffer
+id: oceanapocalypsestudios-rsml-sources-readonlyspanbuffer
 title: ReadOnlySpanBuffer
 sidebar_label: ReadOnlySpanBuffer
 ---

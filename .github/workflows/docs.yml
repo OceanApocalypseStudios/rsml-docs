@@ -41,8 +41,8 @@ jobs:
       - name: Install DocFX
         run: dotnet tool install -g docfx
 
-      - name: Generate assembly metadata
-        run: docfx metadata
+      #- name: Generate assembly metadata
+      #  run: docfx metadata
 
       - name: Install Docusaurus
         run: npm install

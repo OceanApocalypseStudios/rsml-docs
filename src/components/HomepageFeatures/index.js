@@ -4,38 +4,43 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Versatility + choice.',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        RSML does not expect everyone to do things the exact same way and thus
+        offers the developers several APIs to reach the same end result,
+        because not all developers have the same end goal. Some prefer performance,
+        while others prefer convenience.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Simplicity + power.',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        RSML's APIs are very powerful, without being overly complex: given the fact RSML
+        is not a complex language, it doesn't need and shouldn't have complex APIs. Simplicity
+        or power... why not both?
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Performance + convenience.',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        RSML is heavily tested and benchmarked, and we constantly optimize everything
+        we can, without sacrificing convenience. However, we also have specific APIs
+        that go the extra mile and trade some degree of convenience for more performance,
+        in case the developer needs those extra gains.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

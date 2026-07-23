@@ -140,7 +140,7 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'guideSidebar',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorials',
           },
@@ -170,14 +170,15 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'CLI',
+                to: '/docs/tools/cli/getting-started',
               },
             ],
           },
           {
             title: 'Community',
             items: [
+              /*
               {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
@@ -185,6 +186,11 @@ const config = {
               {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
+              },
+              */
+              {
+                label: 'BlueSky',
+                href: 'https://bsky.app/profile/oceanapocalypse.bsky.social',
               },
             ],
           },

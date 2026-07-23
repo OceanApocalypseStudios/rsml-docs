@@ -23,12 +23,12 @@ const config = {
   url: 'https://oceanapocalypsestudios.org/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/RedSeaMarkupLanguage/',
+  baseUrl: '/rsml-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'OceanApocalypseStudios', // Usually your GitHub org/user name.
-  projectName: 'RedSeaMarkupLanguage', // Usually your repo name.
+  projectName: 'rsml-docs', // Usually your repo name.
 
   onBrokenLinks: 'warn', // TODO: set to throw in prod
 
@@ -54,7 +54,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/OceanApocalypseStudios/RedSeaMarkupLanguage/tree/docs/docs/',
+            'https://github.com/OceanApocalypseStudios/rsml-docs/tree/docs/',
           lastVersion: '2.0',
           versions: {
             current: {
@@ -79,7 +79,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/OceanApocalypseStudios/RedSeaMarkupLanguage/tree/docs/blog/',
+            'https://github.com/OceanApocalypseStudios/rsml-docs/tree/blog/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',

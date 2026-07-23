@@ -1,10 +1,2 @@
----
-id: index
-title: RSML.Extensibility
----
-
-# RSML.Extensibility
-
-## OceanApocalypseStudios.RSML.Extensibility
-
-[Class1](./oceanapocalypsestudios/rsml/extensibility/class1.md)
+# TODO
+We are still working on a solution that exports C# documentation to Markdown.

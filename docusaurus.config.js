@@ -55,6 +55,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/OceanApocalypseStudios/rsml-docs/tree/docs/',
+          /*
           lastVersion: '2.0',
           versions: {
             current: {
@@ -68,7 +69,7 @@ const config = {
               banner: 'unmaintained',
               label: '1.0.x'
             }
-          }
+          }*/
         },
         blog: {
           showReadingTime: true,
@@ -143,18 +144,14 @@ const config = {
             position: 'left',
             label: 'Tutorials',
           },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
           { to: '/blog', label: 'Blog', position: 'left' },
+          /*
           {
             type: 'docsVersionDropdown',
             versions: ['current', '2.0', '1.0'],
             position: 'right'
           },
+          */
           {
             type: 'localeDropdown',
             position: 'right'

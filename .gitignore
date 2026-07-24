@@ -3,6 +3,7 @@
 
 # Production
 /build
+/docs/__site
 
 # Generated files
 .docusaurus
@@ -21,3 +22,6 @@ yarn-error.log*
 
 # Backups
 *.bak
+
+# FAKE
+.fake

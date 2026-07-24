@@ -6,7 +6,12 @@
         {
             "label": "Generate API reference",
             "type": "shell",
-            "command": "docfx metadata; py ./sanitize.py ./docs/api/net10.0/ ./api-categories/net10.0.json; py ./sanitize.py ./docs/api/net8.0/ ./api-categories/net8.0.json; py ./sanitize.py ./docs/api/net481/ ./api-categories/net481.json; py ./sanitize.py ./docs/api/net472/ ./api-categories/net472.json"
-        }
+            "command": "docfx metadata; py ./sanitize.py ./docs/api/net10.0/; py ./sanitize.py ./docs/api/net8.0/; py ./sanitize.py ./docs/api/net481/; py ./sanitize.py ./docs/api/net472/"
+        },
+        {
+            "label": "docusaurus: Start development server",
+            "type": "shell",
+            "command": "npm run start"
+        },
     ]
 }

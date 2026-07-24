@@ -38,13 +38,34 @@ jobs:
         with:
           node-version: 24.x
 
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
+
+      - name: Install DocFX
+        run: dotnet tool install -g docfx
+
+      - name: Output API reference with DocFX
+        run: docfx metadata
+
+      - name: Download sanitization script
+        run: git clone https://gist.github.com/332889a0a46458470b0952dd039422e9.git .
+
+      - name: Sanitize DocFX for all frameworks
+        run: |
+          python ./sanitize-docfx-output.py ./docs/api/net10.0
+          python ./sanitize-docfx-output.py ./docs/api/net8.0
+          python ./sanitize-docfx-output.py ./docs/api/net481
+          python ./sanitize-docfx-output.py ./docs/api/net472
+
       - name: Install Docusaurus
         run: npm install
 
       - name: Build site with Docusaurus
         run: npm run build
 
-      - name: Publish DocFX site
+      - name: Publish Docusaurus site
         if: github.event_name == 'push'
         uses: peaceiris/actions-gh-pages@v4
         with:

@@ -11,7 +11,8 @@
         {
             "label": "docusaurus: Start development server",
             "type": "shell",
-            "command": "npm run start"
-        },
+            "command": "npm run start",
+            "problemMatcher": []
+        }
     ]
 }

@@ -29,3 +29,6 @@ yarn-error.log*
 # API reference (docfx)
 **/api/net*
 /sanitize.py
+
+# VSCode Settings
+.vscode/settings.json

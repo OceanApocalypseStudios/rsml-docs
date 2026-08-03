@@ -1,4 +1,4 @@
-[submodule "RedSeaMarkupLanguage"]
+[submodule "RedSeaModernLanguage"]
 	path = rsml
-	url = https://github.com/OceanApocalypseStudios/RedSeaMarkupLanguage.git
+	url = https://github.com/OceanApocalypse/RedSeaModernLanguage.git
 	branch = dev

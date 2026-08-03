@@ -43,7 +43,7 @@ so people can use high-level APIs instead of having to struggle with DLLs.
 			🟡 As a pre-release.
 		</td>
 		<td>
-			🔴 <a href="https://oceanapocalypsestudios.github.io/rsml-docs/api/csharp/">Out-of-date</a> <em>(new documentation coming soon)</em>
+			🔴 <a href="https://oceanapocalypse.org/rsml-docs/api/csharp/">Out-of-date</a> <em>(new documentation coming soon)</em>
 		</td>
 		<td>
 			🟢
@@ -52,7 +52,7 @@ so people can use high-level APIs instead of having to struggle with DLLs.
 			<a href="https://www.nuget.org/packages/RSML"><img src="https://raw.githubusercontent.com/NuGet/Media/refs/heads/main/Images/MainLogo/Vector/nuget.svg" alt="NuGet" width="75" /></a>
 		</td>
 		<td>
-			<a href="https://github.com/OceanApocalypseStudios/RedSeaMarkupLanguage/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
+			<a href="https://github.com/OceanApocalypse/RedSeaMarkupLanguage/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
 		</td>
 		<td>
 			Still in development.
@@ -75,7 +75,7 @@ so people can use high-level APIs instead of having to struggle with DLLs.
 			<a href="https://www.nuget.org/packages/RSML"><img src="https://raw.githubusercontent.com/NuGet/Media/refs/heads/main/Images/MainLogo/Vector/nuget.svg" alt="NuGet" width="75" /></a>
 		</td>
 		<td>
-			<a href="https://github.com/OceanApocalypseStudios/RedSeaMarkupLanguage/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
+			<a href="https://github.com/OceanApocalypse/RedSeaMarkupLanguage/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
 		</td>
 		<td>
 			Still in development.
@@ -98,7 +98,7 @@ so people can use high-level APIs instead of having to struggle with DLLs.
 			<a href="https://www.nuget.org/packages/RSML"><img src="https://raw.githubusercontent.com/NuGet/Media/refs/heads/main/Images/MainLogo/Vector/nuget.svg" alt="NuGet" width="75" /></a>
 		</td>
 		<td>
-			<a href="https://github.com/OceanApocalypseStudios/RedSeaMarkupLanguage/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
+			<a href="https://github.com/OceanApocalypse/RedSeaMarkupLanguage/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
 		</td>
 		<td>
 			Still in development.
@@ -279,7 +279,7 @@ so people can use high-level APIs instead of having to struggle with DLLs.
 			🔴 New version coming soon.
 		</td>
 		<td>
-			🔴 <a href="https://oceanapocalypsestudios.github.io/rsml-docs/api/python/">Out-of-date</a> <em>(new documentation coming soon)</em>
+			🔴 <a href="https://oceanapocalypse.org/rsml-docs/api/python/">Out-of-date</a> <em>(new documentation coming soon)</em>
 		</td>
 		<td>
 			🟢
@@ -288,7 +288,7 @@ so people can use high-level APIs instead of having to struggle with DLLs.
 			<a href="https://pypi.org/project/rsml-python/"><img src="https://pypi.org/static/images/logo-small.8998e9d1.svg" alt="PyPI" width="75" /></a>
 		</td>
 		<td>
-			<a href="https://github.com/OceanApocalypseStudios/RSML.Python/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
+			<a href="https://github.com/OceanApocalypse/RSML.Python/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
 		</td>
 		<td>
 			Coming soon.

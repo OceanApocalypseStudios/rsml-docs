@@ -8,9 +8,9 @@ RSML is currently supported in 3 code editors, out of which 1 is an IDE.
 ## Visual Studio
 > [!NOTE]
 > This extension is currently in preview. Some features might not be working exactly as intended, and some features might be missing.
-> Please report any bugs you find to [this repository](https://github.com/OceanApocalypseStudios/RSML-VisualStudio): it would help us immensely.
+> Please report any bugs you find to [this repository](https://github.com/OceanApocalypse/RSML-VisualStudio): it would help us immensely.
 
-RSML support in Visual Studio is achieved by installing the [RSML extension](https://marketplace.visualstudio.com/items?itemName=OceanApocalypseStudios.oas-rsml-support-vs) for Visual Studio.
+RSML support in Visual Studio is achieved by installing the [RSML extension](https://marketplace.visualstudio.com/items?itemName=OceanApocalypse.oas-rsml-support-vs) for Visual Studio.
 
 **Latest supported RSML specification:**
 - v2.1.0 (unreleased)
@@ -29,7 +29,7 @@ RSML support in Visual Studio is achieved by installing the [RSML extension](htt
 - Visual editor for RSML _(designer)_
 
 ## Visual Studio Code
-RSML support in Visual Studio Code is achieved by installing the [RSML extension](https://marketplace.visualstudio.com/items?itemName=OceanApocalypseStudios.rsml) for Visual Studio Code.
+RSML support in Visual Studio Code is achieved by installing the [RSML extension](https://marketplace.visualstudio.com/items?itemName=OceanApocalypse.rsml) for Visual Studio Code.
 
 **Latest supported RSML specification:**
 - v2.1.0 (unreleased)
@@ -42,7 +42,7 @@ RSML support in Visual Studio Code is achieved by installing the [RSML extension
 - Syntax highlighting
 
 ## Notepad++
-RSML support in Notepad++ is achieved by using the custom User Defined Language available [here](https://github.com/OceanApocalypseStudios/RedSeaMarkupLanguage/blob/main/tools/RSML_NotepadPlusPlus.xml).
+RSML support in Notepad++ is achieved by using the custom User Defined Language available [here](https://github.com/OceanApocalypse/RedSeaMarkupLanguage/blob/main/tools/RSML_NotepadPlusPlus.xml).
 
 **Latest supported RSML specification:**
 - v2.1.0 (unreleased)

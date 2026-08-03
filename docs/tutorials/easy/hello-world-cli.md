@@ -14,7 +14,7 @@ The CLI can be a great tool for quick testing and evaluating, but also an extrem
 Upon completing this walkthrough, you'll learn how to use the very basics of RSML's CLI: we won't touch on the advanced parts.
 
 ## Requirements
-- **[RSML's CLI](https://github.com/OceanApocalypseStudios/RedSeaMarkupLanguage/releases/latest)**
+- **[RSML's CLI](https://github.com/OceanApocalypse/RedSeaMarkupLanguage/releases/latest)**
 
 ## Getting Started
 TODO.

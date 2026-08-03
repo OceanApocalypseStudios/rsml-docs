@@ -13,9 +13,9 @@ Upon completing this walkthrough, you'll learn how to use the very basics of RSM
 ## Optional tools
 The following tools are not necessary to follow the walkthrough, but make it easier to follow, generally.
 
-- **[Visual Studio](https://visualstudio.microsoft.com):** version 18 (Visual Studio 2026) is recommended, but Visual Studio 2022 is equally fine. If using Visual Studio, it's recommended to install the official [RSML extension](https://marketplace.visualstudio.com/items?itemName=OceanApocalypseStudios.oas-rsml-support-vs).
+- **[Visual Studio](https://visualstudio.microsoft.com):** version 18 (Visual Studio 2026) is recommended, but Visual Studio 2022 is equally fine. If using Visual Studio, it's recommended to install the official [RSML extension](https://marketplace.visualstudio.com/items?itemName=OceanApocalypse.oas-rsml-support-vs).
 - **[JetBrains Rider](https://www.jetbrains.com/rider/):** can be used as an alternative to Visual Studio.
-- **[Visual Studio Code](https://code.visualstudio.com):** not an IDE, but can be used as an alternative to Visual Studio and Rider if only the basic code editing is needed. If using VS Code, it's recommended to install the official [RSML extension](https://marketplace.visualstudio.com/items?itemName=OceanApocalypseStudios.rsml).
+- **[Visual Studio Code](https://code.visualstudio.com):** not an IDE, but can be used as an alternative to Visual Studio and Rider if only the basic code editing is needed. If using VS Code, it's recommended to install the official [RSML extension](https://marketplace.visualstudio.com/items?itemName=OceanApocalypse.rsml).
 
 ## Getting Started
 TODO.

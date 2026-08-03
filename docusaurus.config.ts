@@ -14,11 +14,11 @@ const config: Config = {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  url: 'https://oceanapocalypsestudios.org/',
+  url: 'https://oceanapocalypse.org/',
   baseUrl: '/rsml-docs/',
 
   // GitHub pages deployment config.
-  organizationName: 'OceanApocalypseStudios',
+  organizationName: 'OceanApocalypse',
   projectName: 'rsml-docs',
 
   onBrokenLinks: 'warn', // xxx: ignore broken anchors for now
@@ -41,7 +41,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/OceanApocalypseStudios/rsml-docs/tree/docs/',
+            'https://github.com/OceanApocalypse/rsml-docs/tree/docs/',
           /*
           lastVersion: '2.0',
           versions: {
@@ -67,7 +67,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/OceanApocalypseStudios/rsml-docs/tree/blog/',
+            'https://github.com/OceanApocalypse/rsml-docs/tree/blog/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -143,7 +143,7 @@ const config: Config = {
             position: 'right'
           },
           {
-            href: 'https://github.com/OceanApocalypseStudios/RedSeaMarkupLanguage',
+            href: 'https://github.com/OceanApocalypse/RedSeaMarkupLanguage',
             label: 'GitHub',
             position: 'right',
           },
@@ -189,12 +189,12 @@ const config: Config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/OceanApocalypseStudios/RedSeaMarkupLanguage',
+                href: 'https://github.com/OceanApocalypse/RedSeaMarkupLanguage',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} OceanApocalypseStudios. CC0 1.0 Universal.`,
+        copyright: `Copyright © 2025-${new Date().getFullYear()} OceanApocalypse. CC0 1.0 Universal.`,
       },
       prism: {
         theme: prismThemes.github,

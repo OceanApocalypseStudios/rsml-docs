@@ -44,52 +44,6 @@
 			"enumSortOrder": "declaringOrder",
 			"globalNamespaceId": "OceanApocalypse.RSML",
 			"includeExplicitInterfaceImplementations": true
-		},
-		{
-			"src": [
-				{
-					"src": "rsml/src/",
-					"files": [
-						"RSML/*.csproj",
-						"RSML.Language.*/*.csproj",
-						"RSML.Toolchain.*/*.csproj"
-					]
-				}
-			],
-			"properties": {
-				"TargetFramework": "net481"
-			},
-			"output": "docs/api/net481",
-			"useClrTypeNames": true,
-			"outputFormat": "markdown",
-			"memberLayout": "samePage",
-			"namespaceLayout": "nested",
-			"enumSortOrder": "declaringOrder",
-			"globalNamespaceId": "OceanApocalypse.RSML",
-			"includeExplicitInterfaceImplementations": true
-		},
-		{
-			"src": [
-				{
-					"src": "rsml/src/",
-					"files": [
-						"RSML/*.csproj",
-						"RSML.Language.*/*.csproj",
-						"RSML.Toolchain.*/*.csproj"
-					]
-				}
-			],
-			"properties": {
-				"TargetFramework": "net472"
-			},
-			"output": "docs/api/net472",
-			"useClrTypeNames": true,
-			"outputFormat": "markdown",
-			"memberLayout": "samePage",
-			"namespaceLayout": "nested",
-			"enumSortOrder": "declaringOrder",
-			"globalNamespaceId": "OceanApocalypse.RSML",
-			"includeExplicitInterfaceImplementations": true
 		}
 	],
 	"rules": {
@@ -121,8 +75,8 @@
 			"templates/override"
 		],
 		"globalMetadata": {
-			"_appName": "Red Sea Markup Language",
-			"_appTitle": "Red Sea Markup Language",
+			"_appName": "Red Sea Modern Language",
+			"_appTitle": "Red Sea Modern Language",
 			"_appFaviconPath": "images/favicon.ico",
 			"_appLogoPath": "images/xsmall.png",
 			"_enableSearch": true,

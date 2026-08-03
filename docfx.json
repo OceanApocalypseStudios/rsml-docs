@@ -82,7 +82,7 @@
 			"_enableSearch": true,
 			"pdf": true,
 			"_enableNewTab": true,
-			"_appFooter": "See on <a href=\"https://github.com/OceanApocalypse/RedSeaMarkupLanguage/\">GitHub</a>.<br/>Docs made with <a href=\"https://dotnet.github.io/docfx/\">DocFX</a> and <a href=\"https://ovasquez.github.io/docfx-material/\">Material</a>.",
+			"_appFooter": "See on <a href=\"https://github.com/OceanApocalypse/RedSeaModernLanguage/\">GitHub</a>.<br/>Docs made with <a href=\"https://dotnet.github.io/docfx/\">DocFX</a> and <a href=\"https://ovasquez.github.io/docfx-material/\">Material</a>.",
 			"_copyrightFooter": "OceanApocalypse. Documentation licensed under CC0 1.0."
 		},
 		"markdownEngineProperties": {

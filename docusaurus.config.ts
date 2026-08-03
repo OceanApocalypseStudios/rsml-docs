@@ -5,7 +5,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Red Sea Markup Language',
+  title: 'Red Sea Modern Language',
   tagline: 'The official documentation for the language that dynamically evaluates logic paths.',
   favicon: 'img/favicon.ico',
 
@@ -88,7 +88,7 @@ const config: Config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Red Sea Markup Language',
+        title: 'Red Sea Modern Language',
         logo: {
           alt: 'RSML Logo',
           src: 'img/logo.svg',
@@ -143,7 +143,7 @@ const config: Config = {
             position: 'right'
           },
           {
-            href: 'https://github.com/OceanApocalypse/RedSeaMarkupLanguage',
+            href: 'https://github.com/OceanApocalypse/RedSeaModernLanguage',
             label: 'GitHub',
             position: 'right',
           },
@@ -189,7 +189,7 @@ const config: Config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/OceanApocalypse/RedSeaMarkupLanguage',
+                href: 'https://github.com/OceanApocalypse/RedSeaModernLanguage',
               },
             ],
           },

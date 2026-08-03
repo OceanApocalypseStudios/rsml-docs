@@ -2,7 +2,7 @@
 title: Editor Support
 ---
 
-# Editor Support for Red Sea Markup Language
+# Editor Support for Red Sea Modern Language
 RSML is currently supported in 3 code editors, out of which 1 is an IDE.
 
 ## Visual Studio
@@ -42,7 +42,7 @@ RSML support in Visual Studio Code is achieved by installing the [RSML extension
 - Syntax highlighting
 
 ## Notepad++
-RSML support in Notepad++ is achieved by using the custom User Defined Language available [here](https://github.com/OceanApocalypse/RedSeaMarkupLanguage/blob/main/tools/RSML_NotepadPlusPlus.xml).
+RSML support in Notepad++ is achieved by using the custom User Defined Language available [here](https://github.com/OceanApocalypse/RedSeaModernLanguage/blob/main/tools/RSML_NotepadPlusPlus.xml).
 
 **Latest supported RSML specification:**
 - v2.1.0 (unreleased)

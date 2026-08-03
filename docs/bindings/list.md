@@ -52,7 +52,7 @@ so people can use high-level APIs instead of having to struggle with DLLs.
 			<a href="https://www.nuget.org/packages/RSML"><img src="https://raw.githubusercontent.com/NuGet/Media/refs/heads/main/Images/MainLogo/Vector/nuget.svg" alt="NuGet" width="75" /></a>
 		</td>
 		<td>
-			<a href="https://github.com/OceanApocalypse/RedSeaMarkupLanguage/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
+			<a href="https://github.com/OceanApocalypse/RedSeaModernLanguage/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
 		</td>
 		<td>
 			Still in development.
@@ -75,7 +75,7 @@ so people can use high-level APIs instead of having to struggle with DLLs.
 			<a href="https://www.nuget.org/packages/RSML"><img src="https://raw.githubusercontent.com/NuGet/Media/refs/heads/main/Images/MainLogo/Vector/nuget.svg" alt="NuGet" width="75" /></a>
 		</td>
 		<td>
-			<a href="https://github.com/OceanApocalypse/RedSeaMarkupLanguage/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
+			<a href="https://github.com/OceanApocalypse/RedSeaModernLanguage/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
 		</td>
 		<td>
 			Still in development.
@@ -98,7 +98,7 @@ so people can use high-level APIs instead of having to struggle with DLLs.
 			<a href="https://www.nuget.org/packages/RSML"><img src="https://raw.githubusercontent.com/NuGet/Media/refs/heads/main/Images/MainLogo/Vector/nuget.svg" alt="NuGet" width="75" /></a>
 		</td>
 		<td>
-			<a href="https://github.com/OceanApocalypse/RedSeaMarkupLanguage/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
+			<a href="https://github.com/OceanApocalypse/RedSeaModernLanguage/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Github-circle_%28CoreUI_Icons_v1.0.0%29.svg/960px-Github-circle_%28CoreUI_Icons_v1.0.0%29.svg.png" alt="GitHub" width="75" /></a>
 		</td>
 		<td>
 			Still in development.

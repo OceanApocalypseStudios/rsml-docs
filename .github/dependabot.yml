@@ -5,13 +5,13 @@ updates:
     directories:
       - "/*"
     exclude-paths:
-      - "/rsml/*"
-      - "/docs/*"
-      - "/blog/*"
-      - "/static/*"
-      - "/build/*"
-      - "/.sonarlint/*"
-      - "/.vscode/*"
+      - "rsml/*"
+      - "docs/*"
+      - "blog/*"
+      - "static/*"
+      - "build/*"
+      - ".sonarlint/*"
+      - ".vscode/*"
     schedule:
       interval: "cron"
       cronjob: "0 7 * * WED"

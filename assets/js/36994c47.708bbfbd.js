@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkred_sea_markup_language=self.webpackChunkred_sea_markup_language||[]).push([["191"],{5516(e){e.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"default"}')}}]);

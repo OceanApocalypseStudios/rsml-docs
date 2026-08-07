@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkred_sea_markup_language=self.webpackChunkred_sea_markup_language||[]).push([["1668"],{6569(e,a,r){r.r(a),r.d(a,{default:()=>p});var s=r(4848);r(6540);var u=r(4164),n=r(4308),c=r(8287),l=r(2831),d=r(6729);function p(e){return(0,s.jsx)(n.e3,{className:(0,u.A)(c.G.wrapper.docsPages),children:(0,s.jsx)(d.A,{children:(0,l.v)(e.route.routes)})})}}}]);

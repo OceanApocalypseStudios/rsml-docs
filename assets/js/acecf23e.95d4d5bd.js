@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkred_sea_markup_language=self.webpackChunkred_sea_markup_language||[]).push([["3220"],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/rsml-docs/blog","blogTitle":"Blog","authorsListPath":"/rsml-docs/blog/authors"}')}}]);

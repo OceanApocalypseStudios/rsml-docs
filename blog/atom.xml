@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://oceanapocalypse.org/rsml-docs/blog</id>
+    <title>Red Sea Modern Language Blog</title>
+    <updated>2026-08-03T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://oceanapocalypse.org/rsml-docs/blog"/>
+    <subtitle>Red Sea Modern Language Blog</subtitle>
+    <icon>https://oceanapocalypse.org/rsml-docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[We are back!]]></title>
+        <id>https://oceanapocalypse.org/rsml-docs/blog/we-are-back</id>
+        <link href="https://oceanapocalypse.org/rsml-docs/blog/we-are-back"/>
+        <updated>2026-08-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Before you start reading, I'll quickly warn you: this article is different in the sense that it's a "here's everything that happened lately" kind of article -- not too much text, mostly focusing on what has been accomplished, for good and for bad.]]></summary>
+        <content type="html"><![CDATA[<p>Before you start reading, I'll quickly warn you: this article is different in the sense that it's a "here's everything that happened lately" kind of article -- not too much text, mostly focusing on what has been accomplished, for good and for bad.</p>
+<p>Finally having fixed the majority of the issues caused by moving from a DocFX website to a Docusaurus one, we are back developing RSML. Our current focus has been on the lexer, but we've also been doing several other things...</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="launching-a-patreon">Launching a Patreon<a href="https://oceanapocalypse.org/rsml-docs/blog/we-are-back#launching-a-patreon" class="hash-link" aria-label="Direct link to Launching a Patreon" title="Direct link to Launching a Patreon" translate="no">​</a></h2>
+<p>While still a work in progress, we have officially launched our Patreon page! That's right: you can now support the development of your favorite OAS tools, so we can keep working on them and providing a powerful, free and open-source ecosystem.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="better-analysis">Better analysis<a href="https://oceanapocalypse.org/rsml-docs/blog/we-are-back#better-analysis" class="hash-link" aria-label="Direct link to Better analysis" title="Direct link to Better analysis" translate="no">​</a></h2>
+<p>Recently, we started using <a href="https://www.sonarsource.com/products/sonarqube/" target="_blank" rel="noopener noreferrer" class="">Sonar's analysis tooling</a>, because it allows us to flag issues that could have potentially gone unnoticed in our codebases: Sonar ensures our code is safe, tested, maintainable and reliable.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-rebrand-nobody-saw-coming">The rebrand nobody saw coming<a href="https://oceanapocalypse.org/rsml-docs/blog/we-are-back#the-rebrand-nobody-saw-coming" class="hash-link" aria-label="Direct link to The rebrand nobody saw coming" title="Direct link to The rebrand nobody saw coming" translate="no">​</a></h2>
+<p><strong>OceanApocalypseStudios</strong> -&gt; <strong>OceanApocalypse</strong>.</p>
+<p>Yeah, not much to say about this one. We are currently updating lockups, projects and whatnot. Rebranding is a nuisance, but we're rebranding now so we avoid rebranding later on, which would be awful.</p>
+<p>This has been done to dissociate the OAS brand with game development, as we are not gaming-centric. If anything, we haven't made any games... for now... No spoilers, but I can promise you <em>something</em> is in the works.</p>
+<hr>
+<p>Well, it was quite a short article -- probably my shortest yet. Well, it serves its purpose of containing all you need to know about recent news... without having you read through a 25 minute article.</p>
+<p>Thank you for dropping by and reading! ❤️</p>
+<p><em>P.S.: more blog content coming soon</em></p>]]></content>
+        <author>
+            <name>Matthew</name>
+            <email>matthew@oceanapocalypse.org</email>
+            <uri>https://mf366-dev</uri>
+        </author>
+        <category label="Announcements" term="Announcements"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello, Docusaurus! Bye, DocFX?]]></title>
+        <id>https://oceanapocalypse.org/rsml-docs/blog/hello-docusaurus</id>
+        <link href="https://oceanapocalypse.org/rsml-docs/blog/hello-docusaurus"/>
+        <updated>2026-07-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It hasn't been long since I wrote the devlog announcing the new site for RSML documentation. Well, consider it obsolete nonetheless, because we have moved to Docusaurus!]]></summary>
+        <content type="html"><![CDATA[<p>It hasn't been long since I wrote <a class="" href="https://oceanapocalypse.org/rsml-docs/blog/hello-docfx">the devlog</a> announcing the new site for RSML documentation. Well, consider it obsolete nonetheless, because we have moved to Docusaurus!</p>
+<p>In this article, I'll explain why this change was considered and ultimately decided on. I should probably warn you, though: it's going to be a long article!</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-state-of-docfx">The state of DocFX<a href="https://oceanapocalypse.org/rsml-docs/blog/hello-docusaurus#the-state-of-docfx" class="hash-link" aria-label="Direct link to The state of DocFX" title="Direct link to The state of DocFX" translate="no">​</a></h2>
+<p>As of writing this article, <a href="https://dotnet.github.io/docfx" target="_blank" rel="noopener noreferrer" class="">DocFX</a> is hosted under Microsoft's .NET project yet seems to receive little to no attention. Microsoft clearly uses a different - internal only - tool for their massive API browser inside Microsoft Learn. It's the only way to explain why DocFX seems to be so "behind" in all of its features: how could it ever be what Microsoft is actually using if it lacks the basic features you can see in Microsoft Learn's API browser?</p>
+<p>In a <a href="https://learn.microsoft.com/en-us/shows/on-dotnet/intro-to-docfx" target="_blank" rel="noopener noreferrer" class="">video</a> part of Microsoft's On .NET series, Hot Reload support for DocFX is mentioned, yet, as this <a href="https://github.com/dotnet/docfx/issues/2297" target="_blank" rel="noopener noreferrer" class="">issue</a> makes clear, barely nothing was done regarding it.</p>
+<p>Another feature we considered essential yet was not present in DocFX was organizing exports for multiple target frameworks. Of course it allows us to export for multiple frameworks, but as for organizing said exports? No. If you just use DocFX and export to <code>api/net10.0</code>, <code>api/net8.0</code> and whatnot, you'll find UIDs clash, because DocFX does not take into account the possibility of the same namespace (in different frameworks) being included in the documentation more than one time.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-about-docfx-alternatives">What about DocFX alternatives?<a href="https://oceanapocalypse.org/rsml-docs/blog/hello-docusaurus#what-about-docfx-alternatives" class="hash-link" aria-label="Direct link to What about DocFX alternatives?" title="Direct link to What about DocFX alternatives?" translate="no">​</a></h3>
+<p>There aren't any real alternatives to DocFX. There are quite a few open-source CLI tools that output Markdown documentation from .NET assemblies, but I found those either lacked features (such as not recognizing C# 14 extension members, which we use in RSML) or their output was not organized enough.</p>
+<p>This led to us moving away from DocFX as the static site generator, and using it only for the exportation ability (<code>docfx metadata</code>), which is also slightly broken in its own way, but it's objectively better than nothing.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="our-move-to-docusaurus">Our move to Docusaurus<a href="https://oceanapocalypse.org/rsml-docs/blog/hello-docusaurus#our-move-to-docusaurus" class="hash-link" aria-label="Direct link to Our move to Docusaurus" title="Direct link to Our move to Docusaurus" translate="no">​</a></h2>
+<p>We moved to Docusaurus, as it provided a lot of useful features with very simple setup. We could easily set up documentation versioning and even support for languages other than English.</p>
+<p>Using it seemed effortless until we reached the multimillion-dollar question: "what about RSML's API reference?"</p>
+<p>So what was the issue? Well, DocFX is greedy! Let me explain: DocFX is made for DocFX. When you export an API reference with DocFX, it exports it expecting DocFX itself to use it to generate the site. This means exports are filled with things Docusaurus does not, in any way, understand. Here are two major examples:</p>
+<ul>
+<li class="">Anchors in headings</li>
+<li class="">Backslash-escaping</li>
+</ul>
+<p>We tried multiple things, but eventually settled for a sanitization script (which is currently private, as it's still being cleaned up) that runs before exporting the API reference with DocFX.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-sidebar-issue">The sidebar issue<a href="https://oceanapocalypse.org/rsml-docs/blog/hello-docusaurus#the-sidebar-issue" class="hash-link" aria-label="Direct link to The sidebar issue" title="Direct link to The sidebar issue" translate="no">​</a></h3>
+<p>At the time, Docusaurus was auto-generating the sidebar. Well, DocFX actually just exports everything in the same directory with no organization whatsoever: the Docusaurus sidebar was an absolute mess because of this.</p>
+<p>We quickly put together some small, somewhat messy, functions that allowed DocFX to generate an actual organized and pretty sidebar. This sadly took quite some time, all thanks to a tool that seems to be barely supported nowadays.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-final-result">The final result<a href="https://oceanapocalypse.org/rsml-docs/blog/hello-docusaurus#the-final-result" class="hash-link" aria-label="Direct link to The final result" title="Direct link to The final result" translate="no">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="A screenshot of the new site&amp;#39;s API browser" src="https://oceanapocalypse.org/rsml-docs/assets/images/new-site-e99656231ad76af286e0009e2689dd70.png" width="1869" height="911" class="img_ev3q"></p>
+<hr>
+<p>Despite the major difficulties setting everything up, we have to say the site looks extremely clean now. Docusaurus does provide a refreshing and modern UI for the static sites it generates.</p>
+<p>With the project in development after a short break, and the documentation finally picking up, we believe RSML has a shiny future ahead of it.</p>]]></content>
+        <author>
+            <name>Matthew</name>
+            <email>matthew@oceanapocalypse.org</email>
+            <uri>https://mf366-dev</uri>
+        </author>
+        <category label="Announcements" term="Announcements"/>
+        <category label="Documentation" term="Documentation"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why 400 tests?]]></title>
+        <id>https://oceanapocalypse.org/rsml-docs/blog/why-400-test-methods</id>
+        <link href="https://oceanapocalypse.org/rsml-docs/blog/why-400-test-methods"/>
+        <updated>2026-07-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Before we get into the article, I want to inform you it will be much shorter than the last one, mostly because, currently, the focus is finishing #60 and finally moving on to RSML's lexer and respective modularity system.]]></summary>
+        <content type="html"><![CDATA[<p>Before we get into the article, I want to inform you it will be much shorter than the last one, mostly because, currently, the focus is finishing <a href="https://github.com/OceanApocalypse/RedSeaModernLanguage/issues/60" target="_blank" rel="noopener noreferrer" class="">#60</a> and finally moving on to RSML's lexer and respective modularity system.</p>
+<p>Today, we have officially hit the following milestone in RSML: 400 test methods... for a single class... and it's still not fully tested.
+Before you bring your anti-testing and <code>Console.WriteLine()</code> pitchforks forward, let us explain why we have implemented that many test methods...</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="context-matters">Context matters<a href="https://oceanapocalypse.org/rsml-docs/blog/why-400-test-methods#context-matters" class="hash-link" aria-label="Direct link to Context matters" title="Direct link to Context matters" translate="no">​</a></h2>
+<p>In this case, context matters a lot. The class that has received this much testing attention is <code>ReadOnlyStringBuffer</code>, and it serves as the simplest buffer available in the entirety of the official RSML API, yet 400 tests were only half* of what was needed to get it to work properly.</p>
+<p>At OceanApocalypse, we believe testing buffers and big language components (such as lexers and parsers) is imperative to ease the task of getting them to work correctly. If this means testing a lot, then it's a sacrifice that we believe is worth making.</p>
+<p>It's worth mentioning this does <strong>not</strong> mean in any way that we believe testing is only relevant when the components are critical: testing is still important when they're not --- the only difference is that it's even more important when the components are critical.</p>
+<p>Following the same rationale, we are <strong>not</strong> saying quantity matters more than quality: RSML could have 9000 tests and could be a broken mess or have 10 tests and work perfectly. We believe a good combination of both is the best compromise a developer can choose.</p>
+<p style="font-size:82%">*This is an assumption, based on the current amount of test methods and the amount of methods that are yet to be tested.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="expecting-more-tests">Expecting more tests?<a href="https://oceanapocalypse.org/rsml-docs/blog/why-400-test-methods#expecting-more-tests" class="hash-link" aria-label="Direct link to Expecting more tests?" title="Direct link to Expecting more tests?" translate="no">​</a></h2>
+<p>One word: <strong>yes</strong>. Not because we love writing tests, but because there are still  methods that are publicly exposed yet are fully untested by now. Hopefully, they won't stay that way for much longer, and I'll be happy to write a new article once we can finally mark <a href="https://github.com/OceanApocalypse/RedSeaModernLanguage/issues/60" target="_blank" rel="noopener noreferrer" class="">#60</a> as closed.</p>
+<hr>
+<p>Like I said, this was quite a small article, and a bigger one is to be expected soon.</p>
+<p>Thank you for dropping by and reading! ❤️</p>]]></content>
+        <author>
+            <name>Matthew</name>
+            <email>matthew@oceanapocalypse.org</email>
+            <uri>https://mf366-dev</uri>
+        </author>
+        <category label="Our Choices" term="Our Choices"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello, DocFX!]]></title>
+        <id>https://oceanapocalypse.org/rsml-docs/blog/hello-docfx</id>
+        <link href="https://oceanapocalypse.org/rsml-docs/blog/hello-docfx"/>
+        <updated>2026-07-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the very first blog article to be available to the public in RSML's site. Those who have followed the development of this project certainly have noticed the site is looking somewhat different. Well, you're clearly not wrong!]]></summary>
+        <content type="html"><![CDATA[<p>This is the very first blog article to be available to the public in RSML's site. Those who have followed the development of this project certainly have noticed the site is looking <em>somewhat</em> different. Well, you're clearly not wrong!</p>
+<p>Today marks the day we, at OceanApocalypse, have officially ditched <a href="https://www.mkdocs.org/" target="_blank" rel="noopener noreferrer" class="">mkdocs</a> for <a href="https://dotnet.github.io/docfx/" target="_blank" rel="noopener noreferrer" class="">DocFX</a>. Throughout this article, we'll be focusing on what aspects of Red Sea Modern Language lead to this decision and what it affects.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-change">Why change?<a href="https://oceanapocalypse.org/rsml-docs/blog/hello-docfx#why-change" class="hash-link" aria-label="Direct link to Why change?" title="Direct link to Why change?" translate="no">​</a></h2>
+<p>The main reason for the change was convenience. We're a small team and, because of that, it takes some time to release the projects and it also takes time to write documentation for them, such as guides and walkthroughs, as well as some minor articles for those following RSML's development.</p>
+<p>Back when we were using mkdocs, we needed to manually create the API reference: it was not fun. We ended up having the <a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/" target="_blank" rel="noopener noreferrer" class="">XML documentation</a> in the source code and then we had to essentially port it manually to Markdown --- it felt like a huge waste of time that could have been put into creating walkthroughs or expanding RSML's online presence.</p>
+<p>DocFX, unlike mkdocs, is made <strong>for</strong> .NET primarily, so it automatically creates API references from the source projects, allowing us to focus on the more important tasks, which are the ones that require manual and granular control.</p>
+<p>We want to clarify we are not saying mkdocs is not great: it is! However, for our case (a .NET library with XML comments), there was a better alternative, one that reads those very same XML comments and, using the built DLL, generates meaningful documentation from that.</p>
+<p><img decoding="async" loading="lazy" alt="Old Site" src="https://oceanapocalypse.org/rsml-docs/assets/images/old-site-4eeb68fa15699d2d2d349c17f0a935a6.png" width="1870" height="913" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="New Site" src="https://oceanapocalypse.org/rsml-docs/assets/images/new-site-a0bf99c98b205c814e10d65061627579.png" width="1871" height="917" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="is-the-site-fully-finished">Is the site fully finished?<a href="https://oceanapocalypse.org/rsml-docs/blog/hello-docfx#is-the-site-fully-finished" class="hash-link" aria-label="Direct link to Is the site fully finished?" title="Direct link to Is the site fully finished?" translate="no">​</a></h2>
+<p>Nowhere near finished <!-- -->🙃</p>
+<p>We are still working on v3.0.0-prerelease1, which means the site will also be updated frequently with new documentation, guides and whatnot. Even if we pretend for a second no more documentation will be added (which is unthinkable, as the site still has pages marked with "TODO"), we will change some aspects of the site's design.</p>
+<hr>
+<p>We, at OceanApocalypse, are constantly working on both new and existing projects and are now focused on crafting the biggest RSML release so far, little by little.</p>
+<p>The move from mkdocs to DocFX has proved to complete a lot of tasks that were previously ours to get done, giving us time to focus on what truly matters.</p>]]></content>
+        <author>
+            <name>Matthew</name>
+            <email>matthew@oceanapocalypse.org</email>
+            <uri>https://mf366-dev</uri>
+        </author>
+        <category label="Announcements" term="Announcements"/>
+        <category label="Documentation" term="Documentation"/>
+    </entry>
+</feed>

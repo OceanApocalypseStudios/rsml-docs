@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkred_sea_markup_language=self.webpackChunkred_sea_markup_language||[]).push([["4743"],{4379(e){e.exports=JSON.parse('{"metadata":{"permalink":"/rsml-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
